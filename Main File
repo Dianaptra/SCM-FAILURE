@@ -93,6 +93,19 @@ public class Main {
                     constr_1.add(a);
                     constr_2.add(b);
                 }
+                
+                
+                
+                 System.out.println("\nEnter number of Constraints, set 2");
+                int noConstraints = Integer.parseInt(sc.nextLine());
+                for (int k = 0; k < noConstraints; ++k) {
+                    System.out.println("Enter constraint no " + new Integer(k + 1).toString() + " (in a:b form) ");
+                    StringTokenizer st = new StringTokenizer(sc.nextLine(), ":");
+                    int a = Integer.parseInt(st.nextToken());
+                    int b = Integer.parseInt(st.nextToken());
+                    constr_1.add(a);
+                    constr_2.add(b);
+                }
 
                 
                 
