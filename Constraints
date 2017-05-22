@@ -1,0 +1,19 @@
+
+package registerstudent;
+import registerstudent.view.RegisterStudentView;
+/**
+ *
+ * @author user
+ */
+public class Registerstudent {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        RegisterStudentView registerStudentView =new RegisterStudentView();
+        registerStudentView.setVisible(true);
+    }
+    
+}
